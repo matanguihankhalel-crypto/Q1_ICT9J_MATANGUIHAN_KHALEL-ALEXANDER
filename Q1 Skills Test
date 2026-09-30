@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Skills Test</title>
+    <style>
+      h1{
+        font-size: 30px;
+        text-decoration: underline;
+        color: aquamarine;
+      }
+      .container{
+
+        height: 765px;
+        width: 70%;
+        background-color:cadetblue;
+        margin: auto;
+        text-align: left;
+
+
+      }
+      .container img{
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+      }
+      body{
+        background-color: cyan;
+      }
+
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnKidy-_8jWmPpB6LBvevB2FVf548x2xP9_v3vVOqRewsjnvJYYMnCI8Y&s=10" alt="">
+            <h1>OBMC ROBOTICS APPLICATION FORM</h1>
+        </header>
+    <div class="container2">
+    <form>
+       <label for="name">Name:</label>
+             <br>
+             <input type="text" id="Name" name="Name">
+             <br>
+            <label for="email">Email address:</label>
+            <br>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="grade">Grade Level:</label>
+            <br>
+            <select id="grade" name="grade">
+                <option value="g7">Grade 7</option>
+                <option value="g8">Grade 8</option>
+                <option value="g9">Grade 9</option>
+                <option value="g10">Grade 10</option>
+  <br>
+  <label>Tell us which skills do you exceed in</label>
+  <br>
+  
+   <input type="checkbox" id="Coding" name="skills1">
+    <label for="Coding">Coding</label>
+    <input type="checkbox" id="Design" name="skills1">
+    <label for="Design">Design</label>
+    <input type="checkbox" id="Electronics" name="skills1">
+    <label for="Electronics">Electronics</label>
+  
+    <br>
+            <label for="gender">Gender:</label>
+            <br>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender">
+            <label for="other">Other</label>
+            <br>
+             <br>
+             <br>
+             <label for="reason">Tell us why you want to join</label>
+             <br>
+    <textarea id="application" name="application" rows="4" cols="40" placeholder="State reason"></textarea>
+    <br>
+    <input type="submit" id="submit" name="submit" value="Submit application">
+    <br>
+ <h2>Top Robotics Activities We Offer:</h2>
+
+            <ul>
+
+                <li>Line Following Robots</li>
+
+                <li>Obstacle Avoidance Programming</li>
+
+                <li>Light Following Robot</li>
+
+            </ul>
+    </form>
+</body>
+</html>
